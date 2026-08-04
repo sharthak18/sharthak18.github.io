@@ -42,7 +42,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // --- Typewriter Effect ---
     const typewriterElement = document.getElementById('typewriter');
     if (typewriterElement) {
-        const words = ['Smart Contract Auditor.', 'Web3 Builder.', 'Bug Hunter.'];
+        const words = ['Solidity Developer.', 'Smart Contract Auditor.', 'Open to Junior Roles.'];
         let wordIndex = 0;
         let charIndex = 0;
         let isDeleting = false;
