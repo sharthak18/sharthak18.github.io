@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Asraful Islam Sharthak - Resume</title>
+    <title>Asraful Islam Sharthak — Resume | Smart Contract Security & Solidity</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -11,17 +11,13 @@
     <style>
         :root {
             --primary: #000000;
-            --text-main: #333333;
-            --text-muted: #666666;
+            --text-main: #1f2937;
+            --text-muted: #4b5563;
             --accent: #0078D7;
             --bg: #ffffff;
         }
 
-        * {
-            box-sizing: border-box;
-            margin: 0;
-            padding: 0;
-        }
+        * { box-sizing: border-box; margin: 0; padding: 0; }
 
         body {
             font-family: 'Inter', sans-serif;
@@ -41,13 +37,10 @@
             border-radius: 4px;
         }
 
-        .header {
-            text-align: center;
-            margin-bottom: 24px;
-        }
+        .header { text-align: center; margin-bottom: 20px; }
 
         .header h1 {
-            font-size: 28px;
+            font-size: 26px;
             font-weight: 700;
             color: var(--primary);
             margin-bottom: 4px;
@@ -56,17 +49,17 @@
         }
 
         .header h2 {
-            font-size: 16px;
+            font-size: 14px;
             font-weight: 500;
-            color: var(--text-main);
-            margin-bottom: 12px;
+            color: var(--text-muted);
+            margin-bottom: 10px;
         }
 
         .contact-info {
             display: flex;
             justify-content: center;
             flex-wrap: wrap;
-            gap: 12px 16px;
+            gap: 8px 14px;
             font-size: 13px;
         }
 
@@ -78,82 +71,41 @@
             gap: 6px;
         }
 
-        .contact-info a:hover {
-            color: var(--accent);
-            text-decoration: underline;
-        }
+        .contact-info a:hover { color: var(--accent); text-decoration: underline; }
 
-        .section {
-            margin-bottom: 20px;
-        }
+        .section { margin-bottom: 18px; }
 
         .section-title {
-            font-size: 16px;
+            font-size: 15px;
             font-weight: 700;
             color: var(--primary);
             text-transform: uppercase;
             border-bottom: 1px solid var(--primary);
-            padding-bottom: 4px;
-            margin-bottom: 12px;
+            padding-bottom: 3px;
+            margin-bottom: 10px;
             letter-spacing: 0.5px;
         }
 
-        .item {
-            margin-bottom: 12px;
-        }
+        .item { margin-bottom: 12px; }
 
         .item-header {
             display: flex;
             justify-content: space-between;
             align-items: flex-start;
-            margin-bottom: 4px;
+            margin-bottom: 3px;
         }
 
-        .item-title {
-            font-weight: 600;
-            color: var(--primary);
-            font-size: 15px;
-        }
+        .item-title { font-weight: 600; color: var(--primary); font-size: 14px; }
+        .item-subtitle { font-style: italic; color: var(--text-muted); font-size: 13px; }
+        .item-link { font-size: 13px; color: var(--text-muted); text-decoration: none; }
+        .item-link:hover { color: var(--accent); text-decoration: underline; }
 
-        .item-subtitle {
-            font-style: italic;
-            color: var(--text-muted);
-            font-size: 14px;
-        }
+        ul { list-style-type: disc; padding-left: 20px; color: var(--text-main); }
+        li { margin-bottom: 3px; }
+        p { margin-bottom: 8px; }
 
-        .item-link {
-            font-size: 13px;
-            color: var(--text-muted);
-            text-decoration: none;
-        }
-        
-        .item-link:hover {
-            color: var(--accent);
-            text-decoration: underline;
-        }
-
-        ul {
-            list-style-type: disc;
-            padding-left: 20px;
-            color: var(--text-main);
-        }
-
-        li {
-            margin-bottom: 4px;
-        }
-
-        p {
-            margin-bottom: 8px;
-        }
-
-        .skills-list {
-            list-style: none;
-            padding-left: 0;
-        }
-
-        .skills-list li {
-            margin-bottom: 6px;
-        }
+        .skills-list { list-style: none; padding-left: 0; }
+        .skills-list li { margin-bottom: 5px; font-size: 13.5px; }
 
         .print-btn {
             position: fixed;
@@ -175,29 +127,13 @@
             transition: all 0.2s ease;
             z-index: 100;
         }
-
-        .print-btn:hover {
-            transform: translateY(-2px);
-            box-shadow: 0 6px 16px rgba(0, 120, 215, 0.4);
-        }
+        .print-btn:hover { transform: translateY(-2px); box-shadow: 0 6px 16px rgba(0, 120, 215, 0.4); }
 
         @media print {
-            body {
-                background: white;
-                padding: 0;
-            }
-            .resume-container {
-                box-shadow: none;
-                padding: 0;
-                max-width: 100%;
-            }
-            .print-btn {
-                display: none;
-            }
-            a {
-                text-decoration: none !important;
-                color: var(--text-main) !important;
-            }
+            body { background: white; padding: 0; }
+            .resume-container { box-shadow: none; padding: 0; max-width: 100%; }
+            .print-btn { display: none; }
+            a { text-decoration: none !important; color: var(--text-main) !important; }
         }
     </style>
 </head>
@@ -207,92 +143,94 @@
     <div class="resume-container">
         <header class="header">
             <h1>Asraful Islam Sharthak</h1>
-            <h2>Software Developer | Web3 Builder | Smart Contract Security Researcher</h2>
+            <h2>Smart Contract Security Researcher &amp; Solidity Developer</h2>
             <div class="contact-info">
                 <a href="mailto:sharthak016@gmail.com"><i class="fas fa-envelope"></i> sharthak016@gmail.com</a>
-                <a href="https://wa.me/8801644380924"><i class="fab fa-whatsapp"></i> +8801644380924</a>
-                <a href="https://www.linkedin.com/in/asraful-islam-sharthak-09a121227/"><i class="fab fa-linkedin"></i> LinkedIn</a>
-                <a href="https://github.com/sharthak18"><i class="fab fa-github"></i> sharthak18</a>
-                <a href="https://cantina.xyz/u/sharthak18"><i class="fas fa-shield-alt"></i> Cantina Profile</a>
+                <a href="https://github.com/sharthak18"><i class="fab fa-github"></i> github.com/sharthak18</a>
+                <a href="https://www.linkedin.com/in/sharthak18/"><i class="fab fa-linkedin"></i> LinkedIn</a>
+                <a href="https://x.com/sharthak18"><i class="fab fa-x-twitter"></i> @sharthak18</a>
+                <a href="https://cantina.xyz/u/sharthak18"><i class="fas fa-shield-alt"></i> Cantina</a>
                 <a href="https://sharthak18.github.io"><i class="fas fa-globe"></i> Portfolio</a>
+                <a href="https://wa.me/8801644380924"><i class="fab fa-whatsapp"></i> WhatsApp</a>
             </div>
         </header>
 
         <section class="section">
-            <h3 class="section-title">Professional Summary</h3>
-            <p>Software developer and security researcher specializing in Web3 infrastructure, smart contracts, and full-stack applications. Proven track record in uncovering vulnerabilities in decentralized protocols with competitive auditing experience. Adept at bridging the gap between innovative software development and rigorous security practices.</p>
+            <h3 class="section-title">Summary</h3>
+            <p>Junior smart-contract security researcher and Solidity developer focused on access control, oracle manipulation, accounting invariants, and hook-based AMM integration. Operates daily in the Foundry + Slither + Aderyn workflow; writes invariants before pattern-matching, then narrows counterexamples to root cause. Ranked <strong>40 / 773</strong> on Cantina's Revert Finance StableSwap Hooks audit with <strong>1 High + 2 Medium</strong> valid findings, and actively wardens on Code4rena, Sherlock, HackenProof, Immunefi, and Cyfrin. Open to junior auditor, Solidity developer, and protocol-engineering roles.</p>
         </section>
 
         <section class="section">
-            <h3 class="section-title">Security & Auditing Experience</h3>
-            <div class="item">
-                <div class="item-header">
-                    <span class="item-title">Smart Contract Security Researcher</span>
-                    <span class="item-subtitle">Self-directed, 2024 – Present</span>
-                </div>
-                <ul>
-                    <li>Conducted deep-dive vulnerability research on Solidity-based smart contracts, focusing on reentrancy, access-control flaws, arithmetic over/underflows, and integration logic errors.</li>
-                    <li>Executed comprehensive security reviews using an arsenal of tools including Foundry, Slither, Aderyn, and Mythril.</li>
-                    <li>Participated in top-tier competitive auditing platforms such as Code4rena, Sherlock, HackenProof, Immunefi, and Cantina, contributing to the broader DeFi security ecosystem.</li>
-                </ul>
-            </div>
+            <h3 class="section-title">Security &amp; Auditing Experience</h3>
 
             <div class="item">
                 <div class="item-header">
-                    <span class="item-title">Cantina Competitive Audit – Revert Finance (StableSwap Hooks)</span>
+                    <span class="item-title">Cantina — Revert Finance (StableSwap Hooks)</span>
                     <span class="item-subtitle">Cantina, 2025</span>
                 </div>
                 <ul>
-                    <li>Ranked 40th out of 773 global participants in a highly competitive smart contract audit.</li>
-                    <li>Discovered and meticulously documented 1 High-Risk and 2 Medium-Risk vulnerabilities, providing actionable mitigation strategies to the protocol team.</li>
+                    <li>Ranked 40 / 773 wardens on a hook-based AMM integration; submitted 1 High and 2 Medium valid findings.</li>
+                    <li>Worked directly off protocol source: wrote invariant properties and Foundry harness before pattern-matching, then narrowed harness failures from counterexample to root cause.</li>
+                </ul>
+            </div>
+
+            <div class="item">
+                <div class="item-header">
+                    <span class="item-title">Independent Smart Contract Security Researcher</span>
+                    <span class="item-subtitle">Self-directed, 2024 – Present</span>
+                </div>
+                <ul>
+                    <li>Active warden on Cantina, Code4rena, Sherlock, HackenProof, Immunefi, and Cyfrin — writing findings under contest time pressure against hundreds of reviewers.</li>
+                    <li>Reviewed Solidity codebases for reentrancy, access-control flaws, arithmetic, oracle manipulation, and integration defects — the failure modes that actually cause losses on-chain.</li>
+                    <li>Built static + dynamic analysis pipelines (Foundry fuzz &amp; invariant suites, Slither, Aderyn, Mythril, Echidna) and turned their output into short, reproducible reports.</li>
                 </ul>
             </div>
         </section>
 
         <section class="section">
-            <h3 class="section-title">Featured Projects</h3>
+            <h3 class="section-title">Selected Projects</h3>
+
             <div class="item">
                 <div class="item-header">
-                    <span class="item-title">SELF Smart Contract Auditing Tool <span class="item-subtitle">| Developer Tooling</span></span>
+                    <span class="item-title">My-Audit-Portfolio — <span class="item-subtitle">public audit write-ups</span></span>
+                    <a href="https://github.com/sharthak18/My-Audit-Portfolio-" class="item-link"><i class="fab fa-github"></i> GitHub</a>
+                </div>
+                <ul>
+                    <li>Public write-ups of full read-throughs on Damn Vulnerable DeFi, Ethernaut, and selected public contest reports — emphasis on reasoning, root cause, and patch diff, not just the answer.</li>
+                </ul>
+            </div>
+
+            <div class="item">
+                <div class="item-header">
+                    <span class="item-title">SELF — Audit &amp; Static-Analysis Tooling <span class="item-subtitle">| Python, Foundry, Slither, Aderyn</span></span>
                     <a href="https://github.com/sharthak18/SELF-Smart-Contract-Auditing-Tool" class="item-link"><i class="fab fa-github"></i> GitHub</a>
                 </div>
                 <ul>
-                    <li>Engineered a specialized developer environment for orchestrating Solidity audit checks and formalizing review workflows.</li>
-                    <li>Integrated Foundry-based invariant testing templates and automated static analysis reporting.</li>
+                    <li>Local CLI orchestrating Foundry tests + Slither + Aderyn behind one config; emits a consolidated Markdown audit report — the workflow I run on every review.</li>
                 </ul>
             </div>
 
             <div class="item">
                 <div class="item-header">
-                    <span class="item-title">OMNITRIX D-App <span class="item-subtitle">| Decentralized Application</span></span>
+                    <span class="item-title">OMNITRIX D-App <span class="item-subtitle">| Solidity, JavaScript, Foundry</span></span>
                     <a href="https://github.com/sharthak18/OMNITRIX_D-APP" class="item-link"><i class="fab fa-github"></i> GitHub</a>
                 </div>
                 <ul>
-                    <li>Built a robust Web3 user flow interacting securely with deployed smart contracts using modern JavaScript tooling.</li>
-                    <li>Implemented rigorous testing suites to ensure state-transition integrity on the EVM.</li>
-                </ul>
-            </div>
-
-            <div class="item">
-                <div class="item-header">
-                    <span class="item-title">SasthoBondhu-AI <span class="item-subtitle">| AI Health Support</span></span>
-                    <a href="https://github.com/sharthak18/SasthoBondhu-AI" class="item-link"><i class="fab fa-github"></i> GitHub</a>
-                </div>
-                <ul>
-                    <li>Developed a digital health innovation prototype integrating AI assistance for predictive health insights.</li>
-                    <li>Architected a clean full-stack infrastructure to support seamless AI data processing and user delivery.</li>
+                    <li>End-to-end Web3 stack: Solidity contracts + frontend with Foundry tests (incl. fuzz &amp; invariant suites) — built to reason about state transitions and lifecycle, not a tutorial clone.</li>
                 </ul>
             </div>
         </section>
 
         <section class="section">
-            <h3 class="section-title">Technical Arsenal</h3>
+            <h3 class="section-title">Technical Skills</h3>
             <ul class="skills-list">
-                <li><strong>Languages:</strong> Solidity, Python, Rust, JavaScript, TypeScript, HTML/CSS, SQL, C/C++, Java.</li>
-                <li><strong>Web3 & Security Tools:</strong> Foundry, Hardhat, Remix, Slither, Aderyn, Mythril, OpenZeppelin, Cast, Chisel.</li>
-                <li><strong>Infrastructure & DevOps:</strong> Docker, Git, Linux (WSL2), IPFS, Node.js.</li>
-                <li><strong>Blockchain Knowledge:</strong> EVM Internals, Layer 2 Scaling (zkSync, ZK-Rollups), ERC Standards (20, 721, 1155, 4626), DeFi Primitives.</li>
-                <li><strong>AI Workflows:</strong> ChatGPT, Claude, Gemini, Phind, DeepSeek, SolidityScan AI.</li>
+                <li><strong>Smart Contracts:</strong> Solidity, Foundry (forge, cast, anvil, chisel), Hardhat, Remix, OpenZeppelin, ERC-20 / ERC-721 / ERC-1155 / ERC-4626.</li>
+                <li><strong>Security Tooling:</strong> Slither, Aderyn, Mythril, Echidna, Foundry invariant &amp; fuzz suites, manual line-by-line review, reproducible PoCs.</li>
+                <li><strong>EVM &amp; DeFi Concepts:</strong> EVM internals, gas &amp; storage layout, access control, oracle manipulation, hook-based AMMs, stable swaps, lending &amp; CDP invariants.</li>
+                <li><strong>Web3 Frontend:</strong> ethers.js, viem, wagmi, RainbowKit, React, Next.js, TypeScript.</li>
+                <li><strong>Languages:</strong> Solidity, JavaScript, TypeScript, Python, Rust (reading), C/C++ (reading), SQL.</li>
+                <li><strong>Infrastructure &amp; Workflow:</strong> Docker, Git, Linux (incl. WSL2), GitHub Actions CI, IPFS, shell scripting.</li>
+                <li><strong>Platforms:</strong> Cantina, Code4rena, Sherlock, HackenProof, Immunefi, Cyfrin.</li>
             </ul>
         </section>
 
@@ -300,11 +238,11 @@
             <h3 class="section-title">Education</h3>
             <div class="item">
                 <div class="item-header">
-                    <span class="item-title">B.Sc. in Computer Science and Engineering</span>
-                    <span class="item-subtitle">Dhaka International University, Ongoing</span>
+                    <span class="item-title">B.Sc. in Computer Science &amp; Engineering</span>
+                    <span class="item-subtitle">Dhaka International University, Ongoing (Expected 2027)</span>
                 </div>
                 <ul>
-                    <li>Focus Areas: Software Engineering, Blockchain Security, Competitive Programming, Applied Systems.</li>
+                    <li>Relevant coursework: Distributed Systems, Operating Systems, Computer Networks, Cryptography, Software Engineering.</li>
                 </ul>
             </div>
             <div class="item">
@@ -316,30 +254,21 @@
         </section>
 
         <section class="section">
-            <h3 class="section-title">Leadership & Extracurriculars</h3>
+            <h3 class="section-title">Community</h3>
             <div class="item">
                 <div class="item-header">
                     <span class="item-title">Executive Committee Member</span>
                     <span class="item-subtitle">DIU Computer Programming Club (Apr 2026 – Present)</span>
                 </div>
                 <ul>
-                    <li>Facilitate technical workshops, organize competitive programming events, and mentor junior CSE students.</li>
+                    <li>Run technical workshops and mentoring sessions on Solidity, smart-contract security, and CTFs; active in public technical write-ups.</li>
                 </ul>
             </div>
             <div class="item">
                 <div class="item-header">
-                    <span class="item-title">Competitive Programming Participant</span>
-                    <span class="item-subtitle">FALL FEST 2024 - Dhaka International University</span>
+                    <span class="item-title">Speaker / Participant</span>
+                    <span class="item-subtitle">ICADHI 2026 (IEEE); FALL FEST 2024</span>
                 </div>
-            </div>
-            <div class="item">
-                <div class="item-header">
-                    <span class="item-title">Project Showcase & Idea Competition Participant</span>
-                    <span class="item-subtitle">ICADHI 2026 (Jun 2026)</span>
-                </div>
-                <ul>
-                    <li>Participated in the Idea Competition and presented a digital health project at the IEEE International Congress on AI and Digital Health Innovations.</li>
-                </ul>
             </div>
         </section>
     </div>
