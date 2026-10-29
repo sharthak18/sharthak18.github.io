@@ -1,74 +1,268 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="dark">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Asraful Islam Sharthak | Blockchain Security & Full-Stack Developer</title>
-  <link rel="stylesheet" href="styles.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Asraful Islam Sharthak — blockchain security and development engineer, full-stack developer, and researcher based in Dhaka, Bangladesh.">
+    <title>Asraful Islam Sharthak | Blockchain Security &amp; Development</title>
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet">
+    
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="favicon.svg" type="image/svg+xml">
 </head>
 <body>
-  <header class="hero">
-    <div class="container">
-      <h1>Asraful Islam Sharthak</h1>
-      <p class="tagline">Blockchain Security &amp; Development Engineer · Full-Stack Developer · Researcher</p>
-      <p class="location">Dhaka, Bangladesh · Open to blockchain security, smart contract auditing, full-stack, and research roles</p>
+    
+    <!-- Custom Cursor (Optional cool effect) -->
+    <div class="cursor-glow"></div>
 
-      <div class="links">
-        <a href="mailto:sharthak016@gmail.com" class="btn">📧 Email</a>
-        <a href="https://www.linkedin.com/in/sharthak18/" class="btn" target="_blank">LinkedIn</a>
-        <a href="https://github.com/sharthak18" class="btn" target="_blank">GitHub</a>
-        <a href="https://x.com/sharthak18" class="btn" target="_blank">X / Twitter</a>
-      </div>
-    </div>
-  </header>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-content">
+            <a href="#home" class="logo">
+                <span class="logo-accent">A</span>.Sharthak
+            </a>
+            <div class="nav-links">
+                <a href="#about">About</a>
+                <a href="#experience">Security</a>
+                <a href="#projects">Projects</a>
+                <a href="resume.html" target="_blank" class="nav-resume">Resume</a>
+            </div>
+            <div class="hamburger">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
 
-  <section class="about container">
-    <h2>About Me</h2>
-    <p>
-      I'm a builder and researcher based in Dhaka, Bangladesh. I work at the intersection of
-      <strong>blockchain security and development</strong>, <strong>full-stack software engineering</strong>,
-      and <strong>applied research</strong>.
-    </p>
-    <ul class="feature-list">
-      <li><strong>🔐 Blockchain Security & Development</strong> — Smart contract auditing, Solidity development, vulnerability research, protocol security reviews. Active warden: Code4rena, Sherlock, HackenProof, Immunefi, Cyfrin.</li>
-      <li><strong>💻 Full-Stack Development</strong> — TypeScript, JavaScript, React, Node.js, Next.js, REST APIs, databases, deployment pipelines.</li>
-      <li><strong>🔬 Research</strong> — Technical research on blockchain/Web3, security, and general technology topics, distilled into write-ups and reports.</li>
-    </ul>
-  </section>
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-bg">
+            <div class="orb orb-1"></div>
+            <div class="orb orb-2"></div>
+        </div>
+        <div class="container hero-content hidden">
+            <div class="badge">Blockchain Security · Full-Stack · Research</div>
+            <h1 class="hero-title">
+                Building and Securing <br/>
+                <span class="text-gradient">the Decentralized Web</span>
+            </h1>
+            <h2 class="hero-subtitle">
+                Hi, I'm <span class="highlight">Asraful Islam Sharthak</span>. <br/>
+                <span id="typewriter" class="typewriter"></span>
+            </h2>
+            <p class="hero-desc">
+                A blockchain security and development engineer, full-stack developer, and researcher based in Dhaka, Bangladesh. I build production-ready applications, audit Solidity protocols, and turn technical research into clear, practical write-ups.
+            </p>
+            <div class="hero-actions">
+                <a href="resume/asraful-islam-sharthak-resume-v2.pdf" class="btn btn-primary">Download Resume (PDF)</a>
+                <a href="mailto:sharthak016@gmail.com" class="btn btn-secondary">Email Me</a>
+            </div>
+            
+            <div class="social-links">
+                <a href="https://github.com/sharthak18" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://x.com/sharthak18" target="_blank"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.linkedin.com/in/sharthak18/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="mouse"></div>
+        </div>
+    </section>
 
-  <section class="stack container">
-    <h2>Tech Stack</h2>
-    <div class="stack-grid">
-      <div class="stack-card"><strong>Blockchain:</strong> Solidity · Foundry · Hardhat · OpenZeppelin · Vyper · Echidna · Slither · Aderyn</div>
-      <div class="stack-card"><strong>Web / Full-Stack:</strong> TypeScript · JavaScript · React · Node.js · Next.js · Python · PostgreSQL · MongoDB · Docker · Linux · Git</div>
-      <div class="stack-card"><strong>Research:</strong> Technical writing · Literature review · Vulnerability analysis · Data analysis</div>
-    </div>
-  </section>
+    <!-- About Section -->
+    <section id="about" class="about-section pt-100">
+        <div class="container">
+            <div class="section-header hidden">
+                <h2 class="section-title">Developer to <span class="text-gradient">Security Edge</span></h2>
+                <div class="line"></div>
+            </div>
+            <div class="about-grid">
+                <div class="about-text hidden">
+                    <p>I'm a blockchain security and development engineer, full-stack developer, and researcher based in Dhaka, Bangladesh. I work across smart-contract security, end-to-end software engineering, and applied technical research.</p>
+                    <p>On the security side, I write Foundry invariant suites, run Slither and Aderyn, and read protocol code line by line. On the product side, I build web applications, APIs, databases, and deployment pipelines with modern JavaScript and TypeScript tooling.</p>
 
-  <section class="proof container">
-    <h2>Proof of Work</h2>
-    <ul>
-      <li><strong>Cantina — Revert Finance StableSwap Hooks:</strong> ranked 40 / 773, 1 High + 2 Medium valid findings.</li>
-      <li><strong>Active warden:</strong> Code4rena · Sherlock · HackenProof · Immunefi · Cyfrin.</li>
-      <li><strong>GitHub:</strong> github.com/sharthak18</li>
-      <li><strong>Portfolio:</strong> sharthak18.github.io</li>
-    </ul>
-  </section>
+                    <div class="stats-container mt-4">
+                        <div class="stat-box">
+                            <h3 class="stat-number">3</h3>
+                            <p class="stat-label">Core Disciplines</p>
+                        </div>
+                        <div class="stat-box">
+                            <h3 class="stat-number">1</h3>
+                            <p class="stat-label">Integrated Workflow</p>
+                        </div>
+                        <div class="stat-box">
+                            <h3 class="stat-number">∞</h3>
+                            <p class="stat-label">Curiosity to Keep Learning</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="terminal hidden">
+                    <div class="terminal-header">
+                        <div class="dots">
+                            <span></span><span></span><span></span>
+                        </div>
+                        <div class="term-title">audit.sh</div>
+                    </div>
+                    <div class="terminal-body">
+                        <p><span class="prompt">$</span> forge test</p>
+                        <p class="output text-green">[PASS] 24 invariant checks</p>
+                        <p><span class="prompt">$</span> slither .</p>
+                        <p class="output text-yellow">Analyzing attack surface...</p>
+                        <p class="output text-red">High risk: Reentrancy found</p>
+                        <p><span class="prompt">$</span> status</p>
+                        <p class="output text-accent">Hacking the mainframe... Web3 Secured.</p>
+                        <span class="cursor-blink">_</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-  <section class="learning container">
-    <h2>Currently Learning</h2>
-    <p>ZK circuits (Noir), invariant testing at scale (Echidna), assembly-level EVM, applied research methodology.</p>
-  </section>
+    <!-- Security & Tools Section -->
+    <section id="experience" class="tools-section pt-100">
+        <div class="container">
+            <div class="section-header hidden">
+                <h2 class="section-title">Technical <span class="text-gradient">Arsenal</span></h2>
+                <div class="line"></div>
+            </div>
+            
+            <div class="tools-grid">
+                <div class="tool-card hidden glass-card">
+                    <div class="card-icon"><i class="fas fa-search-dollar"></i></div>
+                    <h3>Audit Tools</h3>
+                    <p>Proficient in static analysis and fuzzing.</p>
+                    <div class="tags">
+                        <span>Foundry</span><span>Slither</span><span>Aderyn</span><span>Mythril</span>
+                    </div>
+                </div>
+                
+                <div class="tool-card hidden glass-card delay-1">
+                    <div class="card-icon"><i class="fas fa-code"></i></div>
+                    <h3>Languages</h3>
+                    <p>Writing contracts and tooling efficiently.</p>
+                    <div class="tags">
+                        <span>Solidity</span><span>Rust</span><span>Python</span><span>JavaScript</span>
+                    </div>
+                </div>
 
-  <footer class="container">
-    <p>&copy; 2026 Asraful Islam Sharthak. Built with ❤️ in Dhaka.</p>
-    <p>
-      <a href="https://www.linkedin.com/in/sharthak18/" target="_blank">LinkedIn</a> · 
-      <a href="https://github.com/sharthak18" target="_blank">GitHub</a> · 
-      <a href="mailto:sharthak016@gmail.com">Email</a>
-    </p>
-  </footer>
+                <div class="tool-card hidden glass-card delay-2">
+                    <div class="card-icon"><i class="fas fa-server"></i></div>
+                    <h3>Full-Stack Engineering</h3>
+                    <p>Building and shipping complete web products.</p>
+                    <div class="tags">
+                        <span>TypeScript</span><span>React</span><span>Node.js</span><span>Next.js</span><span>Python</span><span>PostgreSQL</span>
+                    </div>
+                </div>
+            </div>
 
-  <script src="script.js"></script>
+            <div class="platforms-banner hidden mt-5">
+                <p>Security Platforms &amp; Research Focus</p>
+                <div class="platform-logos">
+                    <span>Code4rena</span>
+                    <span>Sherlock</span>
+                    <span>HackenProof</span>
+                    <span>Immunefi</span>
+                    <span>Technical Research</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects-section pt-100">
+        <div class="container">
+            <div class="section-header hidden">
+                <h2 class="section-title">Featured <span class="text-gradient">Builds</span></h2>
+                <div class="line"></div>
+            </div>
+            
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <div class="project-card hidden glass-card hover-glow">
+                    <div class="project-top">
+                        <span class="project-type">Android Application</span>
+                        <a href="https://github.com/sharthak18/screenkit" target="_blank" class="github-link"><i class="fab fa-github"></i></a>
+                    </div>
+                    <h3 class="project-title">ScreenKit</h3>
+                    <p class="project-desc">A native Android capture, creator-studio, and screen-automation suite built with modern Android architecture and high-performance media tooling.</p>
+                    <div class="tags small">
+                        <span>Kotlin</span><span>Jetpack Compose</span><span>CameraX</span><span>MediaProjection</span>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="project-card hidden glass-card hover-glow delay-1">
+                    <div class="project-top">
+                        <span class="project-type">Developer Tooling</span>
+                        <a href="https://github.com/sharthak18/SELF-Smart-Contract-Auditing-Tool" target="_blank" class="github-link"><i class="fab fa-github"></i></a>
+                    </div>
+                    <h3 class="project-title">SELF Smart Contract Auditing Tool</h3>
+                    <p class="project-desc">A CLI that orchestrates Foundry tests, Slither, and Aderyn from one configuration, then emits a consolidated Markdown audit report.</p>
+                    <div class="tags small">
+                        <span>Solidity</span><span>Foundry</span><span>Slither</span>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="project-card hidden glass-card hover-glow delay-2">
+                    <div class="project-top">
+                        <span class="project-type">Web3 DApp</span>
+                        <a href="https://github.com/sharthak18/OMNITRIX_D-APP" target="_blank" class="github-link"><i class="fab fa-github"></i></a>
+                    </div>
+                    <h3 class="project-title">OMNITRIX D-App</h3>
+                    <p class="project-desc">An end-to-end Web3 stack combining Solidity contracts, a frontend, and Foundry fuzz and invariant tests for secure state transitions.</p>
+                    <div class="tags small">
+                        <span>Solidity</span><span>JavaScript</span><span>Web3.js</span>
+                    </div>
+                </div>
+
+                <!-- Project 4 -->
+                <div class="project-card hidden glass-card hover-glow delay-3">
+                    <div class="project-top">
+                        <span class="project-type">Audit Write-ups</span>
+                        <a href="https://github.com/sharthak18/My-Audit-Portfolio-" target="_blank" class="github-link"><i class="fab fa-github"></i></a>
+                    </div>
+                    <h3 class="project-title">Audit Portfolio Notes</h3>
+                    <p class="project-desc">Public write-ups of full read-throughs on Damn Vulnerable DeFi, Ethernaut, and contest reports — reasoning, root cause, and patch diff.</p>
+                    <div class="tags small">
+                        <span>Solidity</span><span>Foundry</span><span>Write-ups</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer CTA -->
+    <footer class="footer pt-100">
+        <div class="container">
+            <div class="footer-content glass-card hidden text-center">
+                <h2 class="section-title">Let's build something secure</h2>
+                <p>Open to blockchain security, smart-contract auditing, full-stack development, and research opportunities. Based in Dhaka, Bangladesh and open to remote collaboration.</p>
+                <div class="mt-4">
+                    <a href="mailto:sharthak016@gmail.com" class="btn btn-primary">Say Hello</a>
+                    <a href="resume.html" target="_blank" class="btn btn-secondary" style="margin-left:8px;">View Resume</a>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2026 Asraful Islam Sharthak. All rights reserved.</p>
+                <div class="social-links-small">
+                    <a href="https://github.com/sharthak18" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="https://x.com/sharthak18" target="_blank"><i class="fab fa-twitter"></i></a>
+                    <a href="https://www.linkedin.com/in/sharthak18/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="script.js"></script>
 </body>
 </html>
